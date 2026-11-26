@@ -1,0 +1,7 @@
+# Board (PYNQ-Z2) runtime -- all preinstalled on the official PYNQ v3.x SD image.
+# Do NOT pip install these on the board; versions are whatever the image ships.
+pynq>=3.0
+numpy>=1.21
+Pillow>=8.0
+# Host-only (model export / tests), NOT needed on the board:
+#   torch, torchvision
